@@ -1,0 +1,156 @@
+@media (max-width: 991.98px) {
+	.hero_con h1{
+		font-size: 35px;
+		padding-top: 0;
+	}
+	.hero_con{
+		padding-left: 0px;
+	}
+	.hero_img .img3{
+		top: 115px;
+	}
+	.ab_items{
+		padding: 35px 50px;
+	}
+	.ab_con h1{
+		font-size: 30px;
+		font-weight: 600;
+		padding-top: 0;
+	}
+	.ab_con p{
+		margin-top: 0;
+	}
+	.ab_items .owl-dots{
+		bottom: 6px;
+	}
+	.epart_head p{
+		font-size: 13px;
+	}
+	.pd_item {
+	    padding: 50px 20px;
+	}
+	.public_dashboard h3 {
+	    font-size: 30px;
+	    font-weight: 500;
+	}
+}
+@media (max-width: 767.98px) {
+	.user_area a{
+		display: block;
+		margin-bottom: 10px;
+	}
+	.hero_content{
+		padding-top: 0;
+	}
+	.hero_img .img1{
+		top: -165px;
+	}
+	.hero_img .img3{
+		top: 10px;
+	}
+	.hero_img .img2{
+		top: -85px;
+	}
+	.partner_p {
+	    position: relative;
+	    top: 380px;
+	}
+	.hero_icon{
+		margin-top: 300px;
+	}
+	.iconitems{
+		margin-bottom: 20px;
+	}
+	.epart_head p{
+		display: none;
+	}
+	.epart_head h2{
+		line-height: 20px;
+	}
+	.epart_item{
+		margin-bottom: 20px;
+	}
+	.feedback_area h2{
+		font-size: 35px;
+	}
+	.public_dashboard a{
+		margin-top: 20px;
+	}
+	.feedback_area{
+		padding-top: 0;
+	}
+}
+@media (max-width: 575.98px) {
+	.hero_img .img1{
+		left: 2px;
+	}
+	.about_area{
+		padding-top: 0;
+	}
+	.e_part{
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+	.public_dashboard{
+		padding-top: 0;
+	}
+}
+@media(max-width: 320px){
+	.user_area{
+		text-align: center;
+	}
+	.logo {
+	    text-align: center;
+	    margin-bottom: 10px;
+	}
+	.hero_con h1 {
+	    font-size: 25px;
+	    text-align: center;
+	    line-height: 35px;
+	}
+	.hero_img .img2 {
+	    top: -126px;
+	    right: 5%;
+	}
+	.hero_img .img3{
+		top: -70px;
+		right: 55%;
+	}
+	.partner_p {
+	    position: relative;
+	    top: 225px;
+	}
+	.hero_icon {
+	    margin-top: 150px;
+	}
+	.user_area a.login{
+		margin-left: 0;
+	}
+	.ab_con h1{
+		font-size: 16px;
+		line-height: 25px;
+		margin: 15px 0px;
+		text-align: center;
+	}
+	.ab_con p {
+	    margin-top: 0;
+	    text-align: center;
+	    font-size: 14px;
+	}
+	.ab_items .owl-dots {
+	    top: -25px;
+	}
+	.epart_head h2 {
+	    line-height: 0px;
+	    font-size: 20px;
+	}
+	.modal-body h5{
+		font-size: 16px;
+	}
+	.feedback_area h2 {
+	    font-size: 20px;
+	}
+}
+
+
+
