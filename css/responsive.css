@@ -94,6 +94,14 @@
 	.public_dashboard{
 		padding-top: 0;
 	}
+	
+	.user_area{
+		text-align: center;
+	}
+	.logo {
+	    text-align: center;
+	    margin-bottom: 10px;
+	}
 }
 @media(max-width: 320px){
 	.user_area{
