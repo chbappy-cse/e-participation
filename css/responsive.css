@@ -94,6 +94,14 @@
 	.public_dashboard{
 		padding-top: 0;
 	}
+
+	.user_area{
+		text-align: center;
+	}
+	.logo {
+	    text-align: center;
+	    margin-bottom: 10px;
+	}
 }
 @media(max-width: 320px){
 	.user_area{
@@ -107,6 +115,9 @@
 	    font-size: 25px;
 	    text-align: center;
 	    line-height: 35px;
+	}
+	.hero_img .img1 {
+	    top: -145px;
 	}
 	.hero_img .img2 {
 	    top: -126px;
@@ -149,6 +160,9 @@
 	}
 	.feedback_area h2 {
 	    font-size: 20px;
+	}
+	.modal-body {
+	    padding: 20px 20px;
 	}
 }
 
