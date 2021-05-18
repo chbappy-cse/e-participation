@@ -413,6 +413,7 @@ body{
     top: -70px;
     right: 9%;
     transform: rotate(340deg);
+    z-index: -1;
 }
 
 .vector-2 {
