@@ -30,7 +30,7 @@
 					<div class="col-12 col-sm-9">
 						<div class="user_area">
 							<a class="hovereffects" href="#0">Already a member?</a>
-							<a class="login" href="#0"><i class="fa fa-user" aria-hidden="true"></i> Login Now</a>
+							<a class="login" href="login.html"><i class="fa fa-user" aria-hidden="true"></i> Login Now</a>
 						</div>
 					</div>
 				</div>
@@ -211,20 +211,67 @@
 							<h3>Raise your voice</h3>
 							<p>Raise your voice for public.</p>
 							<div class="ebtn">
-								<a href="#0" data-toggle="modal" data-target="#exampleModal">COMMENT</a>
-								<a href="#0" data-toggle="modal" data-target="#exampleModal">FEEDBACK</a>
-								<a href="#0" data-toggle="modal" data-target="#exampleModal">SUGGETION</a>
-								<a href="#0" data-toggle="modal" data-target="#exampleModal">COMPLAIN</a>
+								<a href="#0" data-toggle="modal" data-target="#exampleComments">COMMENT</a>
+								<a href="#0" data-toggle="modal" data-target="#exampleFeedback">FEEDBACK</a>
+								<a href="#0" data-toggle="modal" data-target="#exampleSuggetion">SUGGETION</a>
+								<a href="#0" data-toggle="modal" data-target="#exampleComplain">COMPLAIN</a>
 							</div>
 
-							<!-- Modal Start -->
-							<div class="modal fade modal-custom" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<!-- Comment Modal Start -->
+							<div class="modal fade modal-custom" id="exampleComments" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							  <div class="modal-dialog">
 							    <div class="modal-content">
 							      <div class="modal-body">
 							      	<div class="row">
 							      		<div class="col-10">
-							      			<h5 class="modal-title " id="exampleModalLabel">RAISE YOUR VOICE</h5>
+							      			<h5 class="modal-title " id="exampleModalLabel">COMMENTS</h5>
+							      		</div>
+							      		<div class="col-2">
+							      			<button type="button" class="close text-right mr-3" data-dismiss="modal" aria-label="Close">
+									          <span aria-hidden="true">&times;</span>
+									        </button>
+							      		</div>
+							      	</div>
+							      	<!-- Top End -->
+							        <form action="" method="">
+									  <div class="form-group">
+									    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Full Name">
+									  </div>
+
+									  <div class="form-group">
+									    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+									  </div>
+
+									  <div class="form-group">
+									    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Mobile Number">
+									  </div>
+
+
+									  <div class="form-group fontsize">
+									  	Comment type : <label class="ml-2">Genarel <input name="cmt-type" type="radio"></label>
+									  	<label class="ml-2">Flag <input name="cmt-type" type="radio"></label>
+									  </div>
+
+									  <div class="form-group">
+									    <textarea name="" rows="5" class="form-control" placeholder="type your comment here"></textarea>
+									  </div>
+									  
+							        	<button type="button" class="btn btn-success btn-lg btn-block">SUBMIT</button>
+							        </form>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<!-- Comments Modal End -->
+
+							<!-- Feedback Modal Start -->
+							<div class="modal fade modal-custom" id="exampleFeedback" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-body">
+							      	<div class="row">
+							      		<div class="col-10">
+							      			<h5 class="modal-title " id="exampleModalLabel">FEEDBACK</h5>
 							      		</div>
 							      		<div class="col-2">
 							      			<button type="button" class="close text-right mr-3" data-dismiss="modal" aria-label="Close">
@@ -245,7 +292,7 @@
 									    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Mobile Number">
 									  </div>
 									  <div class="form-group">
-									    <textarea name="" rows="5" class="form-control" placeholder="type your comment here"></textarea>
+									    <textarea name="" rows="5" class="form-control" placeholder="type your feedback here"></textarea>
 									  </div>
 									  
 							        	<button type="button" class="btn btn-success btn-lg btn-block">SUBMIT</button>
@@ -254,7 +301,193 @@
 							    </div>
 							  </div>
 							</div>
-							<!-- Modal End -->
+							<!-- Feedback Modal End -->
+
+							<!-- Suggest Modal Start -->
+							<div class="modal fade modal-custom" id="exampleSuggetion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-body">
+							      	<div class="row">
+							      		<div class="col-10">
+							      			<h5 class="modal-title " id="exampleModalLabel">SUGGETION</h5>
+							      		</div>
+							      		<div class="col-2">
+							      			<button type="button" class="close text-right mr-3" data-dismiss="modal" aria-label="Close">
+									          <span aria-hidden="true">&times;</span>
+									        </button>
+							      		</div>
+							      	</div>
+							      	<!-- Top End -->
+							        <form action="" method="">
+									  <div class="form-group">
+									    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Full Name">
+									  </div>
+
+									  <div class="form-group">
+									    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+									  </div>
+									  <div class="form-group">
+									    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Mobile Number">
+									  </div>
+
+
+									  <div class="form-group">
+									    <select class="form-control" id="exampleFormControlSelect1">
+									      <option>Select Ministry</option>
+									    </select>
+									  </div>
+
+									  <div class="form-group">
+									    <select class="form-control" id="exampleFormControlSelect1">
+									      <option>Type Of The Consolation</option>
+									    </select>
+									  </div>
+
+									  <div class="form-group">
+									    <textarea name="" rows="3" class="form-control" placeholder="describr about your current situation"></textarea>
+									  </div>
+
+									  <div class="form-group">
+									    <textarea name="" rows="5" class="form-control" placeholder="give your opinion"></textarea>
+									  </div>
+									  
+							        	<button type="button" class="btn btn-success btn-lg btn-block">SUBMIT</button>
+							        </form>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<!-- Suggetion Modal End -->
+
+							<!-- Complain Modal Start -->
+							<div class="modal fade modal-custom" id="exampleComplain" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-body">
+							      	<div class="row">
+							      		<div class="col-10">
+							      			<h5 class="modal-title " id="exampleModalLabel">COMPLAIN</h5>
+							      		</div>
+							      		<div class="col-2">
+							      			<button type="button" class="close text-right mr-3" data-dismiss="modal" aria-label="Close">
+									          <span aria-hidden="true">&times;</span>
+									        </button>
+							      		</div>
+							      	</div>
+							      	<!-- Top End -->
+							        <form action="" method="">
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Phone">
+										</div>
+
+										<div class="form-group">
+										    <select class="form-control" id="exampleFormControlSelect1">
+										      <option>Select Complain Type</option>
+										      <option>Citizen Complaints</option>
+										      <option>Officer / Employee Complaint</option>
+										      <option>Anonymous Complaint</option>
+										    </select>
+										 </div> 
+
+										 <div class="form-group">
+										    <textarea name="" rows="5" class="form-control" placeholder="Write your complain here"></textarea>
+										  </div>	
+									 	
+									 	<button type="button" class="btn btn-success btn-lg btn-block">SUBMIT</button>
+							        </form>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<!-- Complain Modal End -->
+
+							<!-- Pool Modal Start -->
+							<div class="modal fade modal-custom" id="examplePool" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-body">
+							      	<div class="row">
+							      		<div class="col-10">
+							      			<h5 class="modal-title " id="exampleModalLabel">ATTEND THE POOL</h5>
+							      		</div>
+							      		<div class="col-2">
+							      			<button type="button" class="close text-right mr-3" data-dismiss="modal" aria-label="Close">
+									          <span aria-hidden="true">&times;</span>
+									        </button>
+							      		</div>
+							      	</div>
+							      	<!-- Top End -->
+							        <form action="" method="">
+										<div class="form-group border p-3 rounded fontsize">
+											<label>
+												<input name="pool" type="radio" class="form-control-radio"> Yes <span class="ml-3">30% People Choose This</span>
+											</label>
+										</div>
+
+										<div class="form-group border p-3 rounded fontsize">
+											<label>
+												<input name="pool" type="radio" class="form-control-radio"> No
+											</label>
+										</div>
+
+										<div class="form-group border p-3 rounded fontsize">
+											<label>
+												<input name="pool" type="radio" class="form-control-radio"> Awesome
+											</label>
+										</div>
+									 	<button type="button" class="btn btn-success btn-lg btn-block">SUBMIT</button>
+							        </form>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<!-- Pool Modal End -->
+
+							<!-- Servey Modal Start -->
+							<div class="modal fade modal-custom" id="exampleServey" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-body">
+							      	<div class="row">
+							      		<div class="col-10">
+							      			<h5 class="modal-title " id="exampleModalLabel">JOIN SERVEY</h5>
+							      		</div>
+							      		<div class="col-2">
+							      			<button type="button" class="close text-right mr-3" data-dismiss="modal" aria-label="Close">
+									          <span aria-hidden="true">&times;</span>
+									        </button>
+							      		</div>
+							      	</div>
+							      	<!-- Top End -->
+							        <form action="" method="">
+										<div class="form-group border p-3 rounded fontsize">
+											<label>
+												<input name="pool" type="radio" class="form-control-radio"> Yes <span class="ml-3">30% People Choose This</span>
+											</label>
+										</div>
+
+										<div class="form-group border p-3 rounded fontsize">
+											<label>
+												<input name="pool" type="radio" class="form-control-radio"> No
+											</label>
+										</div>
+
+										<div class="form-group border p-3 rounded fontsize">
+											<label>
+												<input name="pool" type="radio" class="form-control-radio"> Awesome
+											</label>
+										</div>
+									 	<button type="button" class="btn btn-success btn-lg btn-block">SUBMIT</button>
+							        </form>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<!-- Servey Modal End -->
 						</div>
 					</div>
 				</div>
@@ -262,15 +495,12 @@
 				<!-- epart item 2 start -->
 				<div class="col-md-4">
 					<div class="epart_item">
-						<img src="img/epart2.png" alt="" class="img-fluid w-100">
+						<img src="img/epart3.png" alt="" class="img-fluid w-100">
 						<div class="epart_item_con">
-							<h3>Raise your voice</h3>
-							<p>Raise your voice for public.</p>
+							<h3>Attend The Poll</h3>
+							<p>Help us to know about your thingking for current issue</p>
 							<div class="ebtn">
-								<a href="#0" data-toggle="modal" data-target="#exampleModal">COMMENT</a>
-								<a href="#0" data-toggle="modal" data-target="#exampleModal">FEEDBACK</a>
-								<a href="#0" data-toggle="modal" data-target="#exampleModal">SUGGETION</a>
-								<a href="#0" data-toggle="modal" data-target="#exampleModal">COMPLAIN</a>
+								<a href="#0" data-toggle="modal" data-target="#examplePool">CLICK HERE</a>
 							</div>
 						</div>
 					</div>
@@ -279,15 +509,12 @@
 				<!-- epart item 3 start -->
 				<div class="col-md-4">
 					<div class="epart_item">
-						<img src="img/epart1.png" alt="" class="img-fluid w-100">
+						<img src="img/epart2.png" alt="" class="img-fluid w-100">
 						<div class="epart_item_con">
-							<h3>Raise your voice</h3>
-							<p>Raise your voice for public.</p>
+							<h3>Join the Servey</h3>
+							<p>This servey conduct from government to understand the recent scenario.</p>
 							<div class="ebtn">
-								<a href="#0" data-toggle="modal" data-target="#exampleModal">COMMENT</a>
-								<a href="#0" data-toggle="modal" data-target="#exampleModal">FEEDBACK</a>
-								<a href="#0" data-toggle="modal" data-target="#exampleModal">SUGGETION</a>
-								<a href="#0" data-toggle="modal" data-target="#exampleModal">COMPLAIN</a>
+								<a href="#0" data-toggle="modal" data-target="#exampleServey">CLICK HERE</a>
 							</div>
 						</div>
 					</div>
