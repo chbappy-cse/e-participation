@@ -192,13 +192,14 @@ body{
     margin-top: 0px;
     position: absolute;
     right: 0;
-    bottom: 18px;
-    display: none;
+    bottom: -28px;
+    /*display: none;*/
 }
 .ab_items button.owl-prev span {
     color: rgba(244, 42, 65, 1);
     font-size: 50px;
     font-weight: 300;
+
 }
 
 .ab_items button.owl-next span {
@@ -218,13 +219,13 @@ body{
 }
 
 .ab_items .owl-dots {
-    /*position: absolute;
-    left: 35%;
-    bottom: -9px;*/
-    margin-top: 0px;
     position: absolute;
+    left: 35%;
+    bottom: -9px;
+    margin-top: 0px;
+    /*position: absolute;
     right: 0;
-    bottom: 32px;
+    bottom: 32px;*/
 }
 .ab_items .owl-theme .owl-dots .owl-dot span {
 	/*background: #348f25;*/
@@ -403,6 +404,51 @@ body{
 	font-size: 14px;
 	text-align: right;
 	color: #fff;
+}
+
+/*Footer end*/
+
+.vector-1 {
+    position: absolute;
+    top: -70px;
+    right: 9%;
+    transform: rotate(340deg);
+}
+
+.vector-2 {
+    position: absolute;
+    top: 35%;
+    right: 34%;
+    z-index: -1;
+}
+.public_dashboard{
+	position: relative;
+}
+.vector-3 {
+    position: absolute;
+    top: 45px;
+    right: 8%;
+    z-index: 1;
+}
+
+.public_dashboard a {
+    background: linear-gradient(
+90.15deg
+, #338C24 1.74%, #43BA30 99.9%);
+    color: #fff;
+    padding: 10px 50px;
+    display: inline-block;
+    border-radius: 0px; 
+    border: 1px solid transparent;
+    transition: all .5s;
+    text-align: right;
+    float: right;
+    z-index: 9999;
+    position: relative;
+    margin-right: 0px;
+}
+.hovereffects:hover{
+	color: #348e24;
 }
 
 

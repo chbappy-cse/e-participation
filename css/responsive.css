@@ -22,6 +22,7 @@
 	}
 	.ab_items .owl-dots{
 		bottom: 6px;
+		right: -30%;
 	}
 	.epart_head p{
 		font-size: 13px;
@@ -32,6 +33,15 @@
 	.public_dashboard h3 {
 	    font-size: 30px;
 	    font-weight: 500;
+	}
+	.ab_items .owl-theme .owl-nav{
+		display: none;
+	}
+	.vector-1,.vector-2,.vector-3{
+		display: none;
+	}
+	.public_dashboard a{
+		float: none;
 	}
 }
 @media (max-width: 767.98px) {
@@ -94,11 +104,6 @@
 	.public_dashboard{
 		padding-top: 0;
 	}
-<<<<<<< HEAD
-
-=======
-	
->>>>>>> cd8f4ea1bebf04aa4197e8eb590abcc3a8c287d3
 	.user_area{
 		text-align: center;
 	}
