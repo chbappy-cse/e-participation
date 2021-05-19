@@ -470,4 +470,61 @@ body{
 	font-size: 30px;
 	text-transform: uppercase;
 }
+.width-modal {
+    max-width: 70%;
+    margin: 1.75rem auto;
+}
+.cmpl-item{
+	padding: 20px;
+	background: #F1F4F7;
+}
+.cmpl-item h4{
+	font-size: 16px;
+	border-bottom: 2px solid #333;
+	padding-bottom: 15px;
+	color: #868787;
+}
+.cmpl-item p{
+	font-size: 14px;
+	margin-top: 15px;
+}
+.cmpl-item a{
+	color: #fff;
+	padding: 10px 15px;
+	background: #009444;
+	font-size: 12px;
+	text-align: right;
+	transition: .3s;
+	border: 1px solid transparent;
+}
+.cmpl-item a:hover{
+	border: 1px solid #009444;
+	background: transparent;
+	color: #009444;
+}
+.bdtrobbo{
+	font-size: 14px;
+	color: red !important;
+	margin-top: 30px !important;
+}
+.aladha_btn{
+	background: #F7931E!important;	
+	color: #fff!important;
+	border: 1px solid transparent!important;
+}
+.aladha_btn:hover{
+	background: transparent!important;
+	color: 	#F7931E!important;
+	border: 1px solid #F7931E!important;
+}
+.aladha_btn2{
+	background: #4F008C!important;
+	color: #fff!important;
+	border: 1px solid #4F008C!important;
+}
+.aladha_btn2:hover{
+	background: transparent!important;
+	color: #4F008C!important;
+	border: 1px solid #4F008C!important;
+}
 
